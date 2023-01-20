@@ -39,10 +39,10 @@
     "standard-version": "^9.3.0",
     "terser-webpack-plugin": "^5.1.2",
     "url-loader": "^4.1.1",
-    "webpack": "^5.37.1",
+    "webpack": "^5.75.0",
     "webpack-bundle-analyzer": "^4.4.2",
     "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2",
+    "webpack-dev-server": "^3.11.3",
     "webpack-merge": "^5.7.3"
   },
   "engines": {
@@ -67,6 +67,7 @@
   },
   "target": "web",
   "dependencies": {
+    "EventEmitter": "^1.0.0",
     "eventemitter3": "^4.0.7"
   }
 }
